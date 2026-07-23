@@ -1,8 +1,8 @@
 # EXP-1-Image-Handling-and-Pixel-Transformations-Using-OpenCV
 # Name:V.Siri Sai
-#Register Number: 212225240181
+# Register Number: 212225240181
 
-#Aim:
+## Aim:
 Write a Python program using OpenCV that performs the following tasks:
 
 1) Read and Display an Image.  
@@ -32,9 +32,9 @@ Display the original, lower contrast, and higher contrast images.
 ### Step 5:
 Split the image (boy.jpg) into B, G, R components and display the channels
 
-#Programe
+# Programe
 
-Step1:
+# Step1:
 Load an image from your local directory and display it.
 ```
 import cv2
@@ -53,8 +53,8 @@ plt.show()
 <img width="655" height="397" alt="image" src="https://github.com/user-attachments/assets/ed1f5629-44e4-4481-b3a7-583bdd0c3198" />
 
 
-#Step2:
-#Draw a line from the top-left to the bottom-right of the image.
+# Step2:
+# Draw a line from the top-left to the bottom-right of the image.
 
 ```
 
@@ -72,7 +72,7 @@ plt.show()
 
 <img width="648" height="396" alt="image" src="https://github.com/user-attachments/assets/7967e27c-5e78-4a21-975b-7352cb69b58e" />
 
-#Draw a circle at the image.
+# Draw a circle at the image.
 
 ```
 # Load the image
@@ -90,7 +90,7 @@ plt.show()
 
 <img width="645" height="405" alt="image" src="https://github.com/user-attachments/assets/a6898c18-6677-4fa5-9754-a6ae09b12ad7" />
 
-#Draw a rectangle around  the whole image
+# Draw a rectangle around  the whole image
 
 ```
 import cv2
@@ -117,7 +117,7 @@ plt.show()
 
 <img width="668" height="405" alt="image" src="https://github.com/user-attachments/assets/e793e4a5-80c4-43d1-85f4-2dc0a5c45ada" />
 
-#Add the text "Puppy" at the top of the image.
+# Add the text "Puppy" at the top of the image.
 
 ```
 import cv2
@@ -142,7 +142,7 @@ plt.show()
 
 <img width="647" height="397" alt="image" src="https://github.com/user-attachments/assets/f999a021-1410-4318-8c25-79da89e2c64d" />
 
-#Convert the image from RGB to HSV and display it.
+# Convert the image from RGB to HSV and display it.
 
 ```
 image = cv2.imread("C:/Users/acer/Downloads/a-cute-puppy-lying-among-flowers-at-sunset-capturing-a-serene-and-joyful-moment-photo.jpg", cv2.IMREAD_COLOR)
@@ -225,7 +225,7 @@ plt.show()
 
 <img width="647" height="432" alt="image" src="https://github.com/user-attachments/assets/84df02bd-17c9-4314-89b6-02dfab47c2e4" />
 
-#Resize the original image to half its size and display it.
+# Resize the original image to half its size and display it.
 ```
 image = cv2.imread("C:/Users/acer/Downloads/a-cute-puppy-lying-among-flowers-at-sunset-capturing-a-serene-and-joyful-moment-photo.jpg", cv2.IMREAD_COLOR)
 resized_image = cv2.resize(image, (768 // 2, 600 // 2))  # (new_width, new_height)
@@ -261,7 +261,7 @@ plt.show()
 
 <img width="496" height="546" alt="image" src="https://github.com/user-attachments/assets/292e156f-7332-41b1-acab-3250c3afb293" />
 
-#Flip the original image horizontally and display it.
+# Flip the original image horizontally and display it.
 
 ```
 
@@ -279,7 +279,7 @@ plt.axis("off")
 
 <img width="640" height="385" alt="image" src="https://github.com/user-attachments/assets/3b371889-0949-4c2a-b09e-733d41da3228" />
 
-#Flip the original image vertically and display it.
+# Flip the original image vertically and display it.
 
 ```
 flipped_vertically = cv2.flip(image, 0)
@@ -292,7 +292,7 @@ plt.axis("off")
 
 <img width="630" height="391" alt="image" src="https://github.com/user-attachments/assets/43b8d547-a963-4268-85c5-6c8fcf585497" />
 
-#Image with flag
+# Image with flag
 
 ```
 
