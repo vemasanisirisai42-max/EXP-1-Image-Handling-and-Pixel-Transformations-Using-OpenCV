@@ -35,7 +35,7 @@ Split the image (boy.jpg) into B, G, R components and display the channels
 # Programme
 
 # Step1:
-Load an image from your local directory and display it.
+# Load an image from your local directory and display it.
 ```
 import cv2
 import matplotlib.pyplot as plt
