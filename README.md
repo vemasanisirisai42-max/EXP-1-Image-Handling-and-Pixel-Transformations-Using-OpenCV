@@ -32,7 +32,7 @@ Display the original, lower contrast, and higher contrast images.
 ### Step 5:
 Split the image (boy.jpg) into B, G, R components and display the channels
 
-# Programe
+# Programme
 
 # Step1:
 Load an image from your local directory and display it.
